@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Consulta ISBN Persistencia/BookDetailsViewController.swift"
+            timestampString = "484095036.996562"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "BookDetailsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Consulta_ISBN_Persistencia.BookDetailsViewController.bookTitle.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Consulta ISBN Persistencia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Modipay_Mobile/Desktop/programas/Swift%20Curso%203/semana%203/Consulta%20ISBN%20Persistencia/Consulta%20ISBN%20Persistencia/BookDetailsViewController.swift"
+                  timestampString = "484095709.398369"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Consulta_ISBN_Persistencia.BookDetailsViewController.bookTitle.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Consulta ISBN Persistencia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Modipay_Mobile/Desktop/programas/Swift%20Curso%203/semana%203/Consulta%20ISBN%20Persistencia/Consulta%20ISBN%20Persistencia/BookDetailsViewController.swift"
+                  timestampString = "484095709.398478"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Consulta_ISBN_Persistencia.BookDetailsViewController.init (Consulta_ISBN_Persistencia.BookDetailsViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Consulta_ISBN_Persistencia.BookDetailsViewController"
+                  moduleName = "Consulta ISBN Persistencia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Modipay_Mobile/Desktop/programas/Swift%20Curso%203/semana%203/Consulta%20ISBN%20Persistencia/Consulta%20ISBN%20Persistencia/BookDetailsViewController.swift"
+                  timestampString = "484095709.398583"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "323">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Consulta_ISBN_Persistencia.BookDetailsViewController.init (Consulta_ISBN_Persistencia.BookDetailsViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Consulta_ISBN_Persistencia.BookDetailsViewController&gt;"
+                  moduleName = "Consulta ISBN Persistencia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Modipay_Mobile/Desktop/programas/Swift%20Curso%203/semana%203/Consulta%20ISBN%20Persistencia/Consulta%20ISBN%20Persistencia/BookDetailsViewController.swift"
+                  timestampString = "484095709.398693"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

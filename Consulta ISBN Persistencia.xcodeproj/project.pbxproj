@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE29F1B01CDAACFE0074752A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29F1AF1CDAACFE0074752A /* AppDelegate.swift */; };
+		BE29F1B21CDAACFE0074752A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29F1B11CDAACFE0074752A /* ViewController.swift */; };
+		BE29F1B51CDAACFE0074752A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE29F1B31CDAACFE0074752A /* Main.storyboard */; };
+		BE29F1B81CDAACFF0074752A /* Consulta_ISBN_Persistencia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE29F1B61CDAACFF0074752A /* Consulta_ISBN_Persistencia.xcdatamodeld */; };
+		BE29F1BA1CDAACFF0074752A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE29F1B91CDAACFF0074752A /* Assets.xcassets */; };
+		BE29F1BD1CDAACFF0074752A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE29F1BB1CDAACFF0074752A /* LaunchScreen.storyboard */; };
+		BE29F1C51CDAAD7A0074752A /* BookListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29F1C41CDAAD7A0074752A /* BookListTableViewController.swift */; };
+		BE29F1C71CDAAD9A0074752A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29F1C61CDAAD9A0074752A /* Book.swift */; };
+		BE29F1CB1CDAAE9D0074752A /* BookSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29F1CA1CDAAE9D0074752A /* BookSearchViewController.swift */; };
+		BE29F1CD1CDAAEBE0074752A /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29F1CC1CDAAEBE0074752A /* BookDetailsViewController.swift */; };
+		BE29F1CF1CDAAEDC0074752A /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29F1CE1CDAAEDC0074752A /* ProgressView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE29F1AC1CDAACFE0074752A /* Consulta ISBN Persistencia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Consulta ISBN Persistencia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE29F1AF1CDAACFE0074752A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE29F1B11CDAACFE0074752A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE29F1B41CDAACFE0074752A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE29F1B71CDAACFF0074752A /* Consulta_ISBN_Persistencia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Consulta_ISBN_Persistencia.xcdatamodel; sourceTree = "<group>"; };
+		BE29F1B91CDAACFF0074752A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE29F1BC1CDAACFF0074752A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE29F1BE1CDAACFF0074752A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE29F1C41CDAAD7A0074752A /* BookListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListTableViewController.swift; sourceTree = "<group>"; };
+		BE29F1C61CDAAD9A0074752A /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		BE29F1CA1CDAAE9D0074752A /* BookSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookSearchViewController.swift; sourceTree = "<group>"; };
+		BE29F1CC1CDAAEBE0074752A /* BookDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
+		BE29F1CE1CDAAEDC0074752A /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE29F1A91CDAACFE0074752A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE29F1A31CDAACFE0074752A = {
+			isa = PBXGroup;
+			children = (
+				BE29F1AE1CDAACFE0074752A /* Consulta ISBN Persistencia */,
+				BE29F1AD1CDAACFE0074752A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE29F1AD1CDAACFE0074752A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE29F1AC1CDAACFE0074752A /* Consulta ISBN Persistencia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE29F1AE1CDAACFE0074752A /* Consulta ISBN Persistencia */ = {
+			isa = PBXGroup;
+			children = (
+				BE29F1AF1CDAACFE0074752A /* AppDelegate.swift */,
+				BE29F1B11CDAACFE0074752A /* ViewController.swift */,
+				BE29F1B31CDAACFE0074752A /* Main.storyboard */,
+				BE29F1B91CDAACFF0074752A /* Assets.xcassets */,
+				BE29F1BB1CDAACFF0074752A /* LaunchScreen.storyboard */,
+				BE29F1BE1CDAACFF0074752A /* Info.plist */,
+				BE29F1B61CDAACFF0074752A /* Consulta_ISBN_Persistencia.xcdatamodeld */,
+				BE29F1C41CDAAD7A0074752A /* BookListTableViewController.swift */,
+				BE29F1C61CDAAD9A0074752A /* Book.swift */,
+				BE29F1CA1CDAAE9D0074752A /* BookSearchViewController.swift */,
+				BE29F1CC1CDAAEBE0074752A /* BookDetailsViewController.swift */,
+				BE29F1CE1CDAAEDC0074752A /* ProgressView.swift */,
+			);
+			path = "Consulta ISBN Persistencia";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE29F1AB1CDAACFE0074752A /* Consulta ISBN Persistencia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE29F1C11CDAACFF0074752A /* Build configuration list for PBXNativeTarget "Consulta ISBN Persistencia" */;
+			buildPhases = (
+				BE29F1A81CDAACFE0074752A /* Sources */,
+				BE29F1A91CDAACFE0074752A /* Frameworks */,
+				BE29F1AA1CDAACFE0074752A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Consulta ISBN Persistencia";
+			productName = "Consulta ISBN Persistencia";
+			productReference = BE29F1AC1CDAACFE0074752A /* Consulta ISBN Persistencia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE29F1A41CDAACFE0074752A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Carlos Mauricio Idárraga Espitia";
+				TargetAttributes = {
+					BE29F1AB1CDAACFE0074752A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = BE29F1A71CDAACFE0074752A /* Build configuration list for PBXProject "Consulta ISBN Persistencia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE29F1A31CDAACFE0074752A;
+			productRefGroup = BE29F1AD1CDAACFE0074752A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE29F1AB1CDAACFE0074752A /* Consulta ISBN Persistencia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE29F1AA1CDAACFE0074752A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE29F1BD1CDAACFF0074752A /* LaunchScreen.storyboard in Resources */,
+				BE29F1BA1CDAACFF0074752A /* Assets.xcassets in Resources */,
+				BE29F1B51CDAACFE0074752A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE29F1A81CDAACFE0074752A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE29F1B81CDAACFF0074752A /* Consulta_ISBN_Persistencia.xcdatamodeld in Sources */,
+				BE29F1CD1CDAAEBE0074752A /* BookDetailsViewController.swift in Sources */,
+				BE29F1B21CDAACFE0074752A /* ViewController.swift in Sources */,
+				BE29F1C51CDAAD7A0074752A /* BookListTableViewController.swift in Sources */,
+				BE29F1C71CDAAD9A0074752A /* Book.swift in Sources */,
+				BE29F1CF1CDAAEDC0074752A /* ProgressView.swift in Sources */,
+				BE29F1B01CDAACFE0074752A /* AppDelegate.swift in Sources */,
+				BE29F1CB1CDAAE9D0074752A /* BookSearchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE29F1B31CDAACFE0074752A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE29F1B41CDAACFE0074752A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE29F1BB1CDAACFF0074752A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE29F1BC1CDAACFF0074752A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE29F1BF1CDAACFF0074752A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE29F1C01CDAACFF0074752A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE29F1C21CDAACFF0074752A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Consulta ISBN Persistencia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.coursera.Consulta-ISBN-Persistencia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE29F1C31CDAACFF0074752A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Consulta ISBN Persistencia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.coursera.Consulta-ISBN-Persistencia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE29F1A71CDAACFE0074752A /* Build configuration list for PBXProject "Consulta ISBN Persistencia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE29F1BF1CDAACFF0074752A /* Debug */,
+				BE29F1C01CDAACFF0074752A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE29F1C11CDAACFF0074752A /* Build configuration list for PBXNativeTarget "Consulta ISBN Persistencia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE29F1C21CDAACFF0074752A /* Debug */,
+				BE29F1C31CDAACFF0074752A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE29F1B61CDAACFF0074752A /* Consulta_ISBN_Persistencia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE29F1B71CDAACFF0074752A /* Consulta_ISBN_Persistencia.xcdatamodel */,
+			);
+			currentVersion = BE29F1B71CDAACFF0074752A /* Consulta_ISBN_Persistencia.xcdatamodel */;
+			path = Consulta_ISBN_Persistencia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE29F1A41CDAACFE0074752A /* Project object */;
+}
